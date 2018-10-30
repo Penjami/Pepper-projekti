@@ -1,0 +1,16 @@
+topic: ~ExampleDialog()
+language: fif
+
+# Defining extra concepts out of words or group of words
+concept:(hello) [hei moi morjens terve päivää]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+u:(~hello) ~hello
+u:(puhutaan lentokoneista) pidän lentokoneista, arvaa lempi lentokoneeni
+
+u:^private(boeing) pidän airbussista enemmän
+u:^private(airbus) arvasit oikein, voitit pelin
+u:^private(en pidä lentokoneista) en pidä sinusta

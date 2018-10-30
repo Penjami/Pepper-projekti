@@ -212,10 +212,10 @@
             <translation type="obsolete">Olet nainen</translation>
         </message>
         <message>
-            <location filename="sensor_test/behavior.xar" line="0"/>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/sensor_test/behavior.xar" line="0"/>
             <source></source>
             <comment>Text</comment>
-            <translation type="unfinished"></translation>
+            <translation></translation>
         </message>
     </context>
     <context>
