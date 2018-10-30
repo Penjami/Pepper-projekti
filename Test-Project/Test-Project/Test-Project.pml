@@ -3,18 +3,26 @@
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
-        <BehaviorDescription name="behavior" src="dialog_test" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="movement_test" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="sensor_test" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="detection_test" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="dance_test" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="dialogue_test" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="gender_age_test" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="switch_to_english" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="choice_sentences_light" src="dialog_test/Aldebaran/choice_sentences_light.xml" />
+        <File name="swiftswords_ext" src="dance_test/swiftswords_ext.mp3" />
+        <File name="taichimove" src="dance_test/taichimove.pmt" />
     </Resources>
-    <Topics />
+    <Topics>
+        <Topic name="ExampleDialog_enu" src="dialogue_test/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
+        <Topic name="ExampleDialog_fif" src="dialogue_test/ExampleDialog/ExampleDialog_fif.top" topicName="ExampleDialog" language="fi_FI" />
+    </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
         <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
+        <Translation name="translation_fi_FI" src="translations/translation_fi_FI.ts" language="fi_FI" />
     </Translations>
 </Package>

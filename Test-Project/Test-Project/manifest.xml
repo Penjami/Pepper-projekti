@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="test-project-d3dde7">
+<package uuid="test-project-d3dde7" version="0.0.0">
  <names>
   <name lang="en_US">Untitled</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>
+  <language>fi_FI</language>
  </supportedLanguages>
  <descriptionLanguages>
   <language>en_US</language>
+  <language>fi_FI</language>
  </descriptionLanguages>
  <contents>
   <behaviorContent path="behavior_1">
@@ -18,29 +20,19 @@
    <autonomous/>
    <permissions/>
   </behaviorContent>
-  <behaviorContent path="dialog_test">
-   <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
-   <permissions/>
-  </behaviorContent>
   <behaviorContent path="movement_test">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="sensor_test">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="detection_test">
    <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
  </contents>
