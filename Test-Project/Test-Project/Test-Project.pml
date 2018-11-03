@@ -10,8 +10,11 @@
         <BehaviorDescription name="behavior" src="dialogue_test" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="gender_age_test" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="switch_to_english" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="presentation_dialogue" xar="behavior.xar" />
     </BehaviorDescriptions>
-    <Dialogs />
+    <Dialogs>
+        <Dialog name="Presentation" src="Presentation/Presentation.dlg" />
+    </Dialogs>
     <Resources>
         <File name="swiftswords_ext" src="dance_test/swiftswords_ext.mp3" />
         <File name="taichimove" src="dance_test/taichimove.pmt" />
@@ -19,6 +22,7 @@
     <Topics>
         <Topic name="ExampleDialog_enu" src="dialogue_test/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
         <Topic name="ExampleDialog_fif" src="dialogue_test/ExampleDialog/ExampleDialog_fif.top" topicName="ExampleDialog" language="fi_FI" />
+        <Topic name="Presentation_fif" src="Presentation/Presentation_fif.top" topicName="Presentation" language="fi_FI" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">

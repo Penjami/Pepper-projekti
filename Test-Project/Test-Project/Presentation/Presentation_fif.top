@@ -1,0 +1,18 @@
+topic: ~Presentation()
+language: fif
+
+# Defining extra concepts out of words or group of words
+concept:(hello) [hei moi morjens terve päivää]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+u:(~hello) ~hello
+u:(Kuka sinä olet) Olen pepper robotti
+
+u:^private(Kerro itsestäsi) 
+        Olen Softbankin kehittämä robotti, joka voi
+        auttaa yksinkertaisissa askareissa
+u:^private(Mitä sinä voit tehdä ihmiskunnan hyväksi) 
+        Voin auttaa erinäköisissä asioissa
