@@ -8,9 +8,12 @@ concept:(hello) [hei moi morjens terve päivää]
 #u:(e:onStart) $onStopped=1
 
 # Replying to speech
+u:(e:onStart): Moi sosionomi opiskelija, miten menee?
 u:(~hello) ~hello
-u:(Kuka sinä olet) Olen pepper robotti
+u:(["kuka sinä olet" "mikä on nimesi"]) ^start(animations/Stand/Gestures/Explain_1)Olen pepper robotti, Olen noin 120 senttimetriä pitkä ja painan alle 30 kilogrammaa. Minulla on moottoreita molemmissa käsissä ja jaloissa, jotta pysyisin tasapainossa. Pystyn liikkumaan ja väistämään esteitä käyttämällä jaloissani olevia luotaimia, lasersensoreita ja kolmeuloitteista näköaistia. Näiden ominaisuuksien lisäksi pystyn olemaan aktiivinen 12 tuntia lataamatta. 
 
+u:^private(tunteet) Voin ilmaista tunteita äänelläni, eleillä ja valoilla silmissäni ja hartioissani. Pystyn tunnistamaan äännessäsi turhautuneisuutta. Joka päivä opin uutta ja pyrin olemaan parempi apuri.
+    
 u:^private(Kerro itsestäsi) 
         Olen Softbankin kehittämä robotti, joka voi
         auttaa yksinkertaisissa askareissa

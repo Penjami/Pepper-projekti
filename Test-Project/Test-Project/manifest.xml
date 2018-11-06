@@ -22,16 +22,10 @@
   </behaviorContent>
   <behaviorContent path="movement_test">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="sensor_test">
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="detection_test">
@@ -42,6 +36,13 @@
    <permissions/>
   </behaviorContent>
   <behaviorContent path="presentation_dialogue">
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="emotion_test">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>

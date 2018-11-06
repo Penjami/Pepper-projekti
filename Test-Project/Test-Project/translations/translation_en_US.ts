@@ -140,6 +140,90 @@
         </message>
     </context>
     <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say</name>
+        <message>
+            <source>Näytät iloiselta</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Näytät iloiselta</translation>
+        </message>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (1)</name>
+        <message>
+            <source>Olet neutraali</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Olet neutraali</translation>
+        </message>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (2)</name>
+        <message>
+            <source>Näytät surulliselta</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Näytät surulliselta</translation>
+        </message>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (3)</name>
+        <message>
+            <source>Olet yllättynyt</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Olet yllättynyt</translation>
+        </message>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (4)</name>
+        <message>
+            <source>Olet vihainen</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Olet vihainen</translation>
+        </message>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (5)</name>
+        <message>
+            <source>En saa selville sinun ilmettäsi</source>
+            <comment>Text</comment>
+            <translation type="obsolete">En saa selville sinun ilmettäsi</translation>
+        </message>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
         <name>sensor_test/behavior.xar:/React To the Expression/Say</name>
         <message>
             <location filename="sensor_test/behavior.xar" line="0"/>

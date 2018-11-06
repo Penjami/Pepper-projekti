@@ -74,6 +74,60 @@
         </message>
     </context>
     <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say</name>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (1)</name>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (2)</name>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (3)</name>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (4)</name>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
+        <name>emotion_test/behavior.xar:/React To the Expression/Say (5)</name>
+        <message>
+            <location filename="C:/Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/emotion_test/behavior.xar" line="0"/>
+            <source></source>
+            <comment>Text</comment>
+            <translation></translation>
+        </message>
+    </context>
+    <context>
         <name>sensor_test/behavior.xar:/React To the Expression/Say</name>
         <message>
             <location filename="sensor_test/behavior.xar" line="0"/>

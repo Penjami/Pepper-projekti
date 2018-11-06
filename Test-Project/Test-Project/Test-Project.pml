@@ -11,6 +11,7 @@
         <BehaviorDescription name="behavior" src="gender_age_test" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="switch_to_english" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="presentation_dialogue" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="emotion_test" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs>
         <Dialog name="Presentation" src="Presentation/Presentation.dlg" />
