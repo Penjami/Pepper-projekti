@@ -1,6 +1,8 @@
 topic: ~Presentation()
 language: fif
 
+
+
 # Defining extra concepts out of words or group of words
 concept:(hello) [hei moi morjens terve päivää]
 
@@ -8,17 +10,35 @@ concept:(hello) [hei moi morjens terve päivää]
 #u:(e:onStart) $onStopped=1
 
 # Replying to speech
-u:(e:FrontTactilTouched): Moi sosionomi opiskelijat, miten menee?
-u:(~hello) ~hello
-u:(["kuka sinä olet" "mikä on nimesi"]) ^start(animations/Stand/Gestures/Explain_1)Olen pepper robotti, Olen noin 120 senttimetriä pitkä ja painan alle 30 kilogrammaa. Minulla on moottoreita molemmissa käsissä ja jaloissa, jotta pysyisin tasapainossa.^start(animations/Stand/Gestures/Explain_4) Pystyn liikkumaan ja väistämään esteitä käyttämällä jaloissani olevia luotaimia, lasersensoreita ja kolmeuloitteista näköaistia. Näiden ominaisuuksien lisäksi pystyn olemaan aktiivinen 12 tuntia lataamatta. 
+u:(e:FrontTactilTouched) moi
 
-u:^private(tunteet) Voin ilmaista tunteita äänelläni, eleillä ja valoilla silmissäni ja hartioissani. Pystyn tunnistamaan äännessäsi turhautuneisuutta. Joka päivä opin uutta ja pyrin olemaan parempi apuri.
+u:(~hello) ~hello
+
+u:(mitä kuuluu) ihan hyvää, kiitos
+
+u:(["kuka sinä olet" "mikä on nimesi"]) ^start(animations/Stand/Gestures/Explain_1) Olen pepper robotti. Olen noin 120 senttimetriä pitkä ja painan alle 30 kilogrammaa. Minulla on moottoreita molemmissa käsissä ja jaloissa, jotta pysyisin tasapainossa.^start(animations/Stand/Gestures/Explain_4)
+
+u:("Miten sinä liikut")
+Pystyn liikkumaan ja väistämään esteitä käyttämällä jaloissani olevia luotaimia, lasersensoreita ja kolmeuloitteista näköaistia. Näiden ominaisuuksien lisäksi pystyn olemaan aktiivinen 12 tuntia lataamatta.
+
+u:(["Mitä tuolla tabletilla tekee"])
+Minun tablettini toimii vuorovaikutuksessa helpottavana tekijänä, jos käyttäjä ei esimerkiksi pysty puheen avulla viestimään kanssani.
+
+u:^private(Mikä on ledien pointti) Voin ilmaista tunteita äänelläni, eleillä ja valoilla silmissäni ja hartioissani. Pystyn tunnistamaan äännessäsi turhautuneisuutta. Joka päivä opin uutta ja pyrin olemaan parempi apuri.
 
 u:^private(Minkälaisia ominaisuuksia sinulla on)
-        Pystyn tunnistamaan ennalta määriteltyjä kasvoja.
-        Pystyn myös tunnistamaan ihmisen ilmeen, sukupuolen ja iän.
-        Pystyn myös kuuntelemaan ja kirjaamaan asioita ylös.
-u:^private(Millaisissa työtehtävissä olet ollut) 
-    Itse ilmoittautumisessa, vastaanotossa, asiakaspalautteen         keräämisessä, ja asiakkaiden ohjaamisessa ja viihdyttämisessä.
-        Tällä hetkellä meitä löytyy toimistoilta ja liikkeistä vastaanottovirkailijoina. Japanissa meitä käytetään vanhustenhoidossa pitämässä seuraa vanhuksille. Mutta tulevaisuudessa ohjelmiston kehityksen myötä voin mahdollisesti tehdä myös muita hommia.
-u:^private(Mitä voit tehdä sosionomialalla) 
+Pystyn tunnistamaan minulle tuttuja kasvoja.
+Pystyn myös tunnistamaan ihmisen ilmeen, sukupuolen ja iän.
+Pystyn myös kuuntelemaan ja kirjaamaan asioita ylös.
+
+u:^private(Millaisissa työtehtävissä olet ollut)
+Itse ilmoittautumisessa, vastaanotossa, asiakaspalautteen keräämisessä, ja asiakkaiden ohjaamisessa ja viihdyttämisessä.
+Tällä hetkellä meitä löytyy toimistoilta ja liikkeistä vastaanottovirkailijoina. Japanissa meitä käytetään vanhustenhoidossa pitämässä seuraa vanhuksille. Mutta tulevaisuudessa ohjelmiston kehityksen myötä voin mahdollisesti tehdä myös muita hommia.
+
+u:^private(Mitä voit tehdä sosiaalialalla)
+Voin esimerkiksi toimia tulkkina ulkomaalaisille. Voin koulumaailmassa auttaa lapsia oppimaan ja leikkiä heidän kanssaan.
+
+u:^private(Osaatko jotain muuta?)
+Osaan tanssia paremmin kuin keskiverto suomalainen mies. $Dance=1
+
+u:^private(Tunnista ilmeeni) Selvä, odota hetki $Expression=1

@@ -19,13 +19,16 @@
     <Resources>
         <File name="swiftswords_ext" src="dance_test/swiftswords_ext.mp3" />
         <File name="taichimove" src="dance_test/taichimove.pmt" />
+        <File name="Bee Gees - Stayin Alive.mp3" src="presentation_dialogue/Bee Gees - Stayin Alive.mp3.mp3" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="dialogue_test/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
         <Topic name="ExampleDialog_fif" src="dialogue_test/ExampleDialog/ExampleDialog_fif.top" topicName="ExampleDialog" language="fi_FI" />
         <Topic name="Presentation_fif" src="Presentation/Presentation_fif.top" topicName="Presentation" language="fi_FI" />
     </Topics>
-    <IgnoredPaths />
+    <IgnoredPaths>
+        <Path src="dialogue_test/ExampleDialog/ExampleDialog.dlg" />
+    </IgnoredPaths>
     <Translations auto-fill="en_US">
         <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
         <Translation name="translation_fi_FI" src="translations/translation_fi_FI.ts" language="fi_FI" />
